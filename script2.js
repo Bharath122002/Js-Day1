@@ -4,8 +4,8 @@
 let name = prompt("Enter your Name:");
 let age = prompt("Enter your Age:");
 
-console.log("My name is " + name);
-console.log("I am " + age + " years old");
+console.log("My name is" + name);
+console.log("I am" + age + " years old");
 
 
 // Task 2 - Degree Confirmation
@@ -46,12 +46,7 @@ if (voterAge >= 18) {
 // Task 5 - Shopping Cart
 //-------------------------------
 
-let cart = [
-    "Rice",
-    "Milk",
-    "Sugar",
-    "Tea Powder"
-];
+let cart = ["Rice","Milk","Sugar","Tea Powder"];
 
 console.log("First Product : " + cart[0]);
 console.log("Last Product : " + cart[cart.length - 1]);
@@ -61,12 +56,7 @@ console.log("Total Products : " + cart.length);
 // Task 6 - Student Details
 //-------------------------------
 
-let student = {
-    name: "Naveen",
-    age: 18,
-    course: "MERN"
-};
-
+let student = {name: "Naveen",age: 18,course: "MERN"};
 console.log("Student Name : " + student.name);
 console.log("Student Course : " + student.course);
 
@@ -76,9 +66,7 @@ console.log("Student Course : " + student.course);
 
 let salary = 25000;
 let bonus = 5000;
-
 let totalSalary = salary + bonus;
-
 console.log("Total Salary : " + totalSalary);
 
 
@@ -87,10 +75,8 @@ console.log("Total Salary : " + totalSalary);
 
 let username = "admin";
 let password = "1234";
-
 let enteredUsername = prompt("Enter Username:");
 let enteredPassword = prompt("Enter Password:");
-
 if (enteredUsername === username && enteredPassword === password) {
     console.log("Login Successful");
 } else {
@@ -103,11 +89,9 @@ if (enteredUsername === username && enteredPassword === password) {
 
 let foodPrice = 350;
 let deliveryCharge = 50;
-
 let totalBill = foodPrice + deliveryCharge;
 let gst = totalBill * 0.05;
 let grandTotal = totalBill + gst;
-
 console.log("Total Bill : " + totalBill);
 console.log("GST (5%) : " + gst);
 console.log("Grand Total : " + grandTotal);
@@ -117,12 +101,7 @@ console.log("Grand Total : " + grandTotal);
 // Task 10 - E-Commerce Product Details
 //---------------------------------------
 
-let product = {
-    name: "Laptop",
-    price: 50000,
-    brand: "ASUS",
-    stock: true
-};
+let product = {name: "Laptop",price: 50000,brand: "ASUS",stock: true};
 
 console.log("Product Name : " + product.name);
 console.log("Brand : " + product.brand);
