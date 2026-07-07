@@ -114,7 +114,7 @@ function* playlist() {
     return "Playlist Completed";
 
 }
-
+ 
 let videos = playlist();
 console.log(videos.next().value);
 console.log(videos.next().value);
