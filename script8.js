@@ -5,10 +5,9 @@ let age = currentDate.getFullYear()-dob.getFullYear()
 console.log("Employee Age : ",age,"Years")
 
 //Task 2: Online Appointment Scheduler
-
 let App=new Date();
 App.setFullYear(2027)
-App.setMonth(11)
+App.setMonth(11)    
 App.setDate(15)
 App.setHours(10)
 App.setMinutes(30)

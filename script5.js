@@ -1,8 +1,7 @@
 // Functions Assignment
-//----------------------------------------------
 
 // Task 1 - Employee Login (Scope)
-//----------------------------------------------
+
 function employeeLogin() {
 
     if (true) {
@@ -26,7 +25,6 @@ employeeLogin();
 
 
 // Task 2-ATM Machine (Hoisting)
-//----------------------------------------------
 
 console.log(balance);
 
@@ -38,7 +36,6 @@ var balance = 50000;
     const cash = 10000;
 
 // Task 3-Food Delivery App (Named Function)
-//----------------------------------------------
 
 function orderFood(foodName) {
 
@@ -50,7 +47,6 @@ orderFood("Chicken Biryani");
 
 
 // Task 4-WhatsApp Status (Anonymous Function)
-//----------------------------------------------
 
 let updateStatus = function (status) {
 
@@ -62,7 +58,6 @@ updateStatus("Busy in Meeting");
 
 
 // Task 5-Weather App (Arrow Function)
-//----------------------------------------------
 
 let weather = (city, temperature) => {
 
@@ -74,7 +69,6 @@ weather("Chennai", 36);
 
 
 // Task 6-Flipkart Offer (IIFE)
-//----------------------------------------------
 
 (function () {
 
@@ -85,7 +79,7 @@ weather("Chennai", 36);
 
 
 // Task 7-Online Payment (Higher Order + Callback)
-//----------------------------------------------
+
 
 function paymentSuccess() {
 
@@ -104,7 +98,7 @@ makePayment(paymentSuccess);
 
 
 // Task 8-YouTube Playlist (Generator Function)
-//----------------------------------------------
+
 function* playlist() {
 
     yield "Video 1";
@@ -124,7 +118,7 @@ console.log(videos.next().value);
 
 
 // Task 9-Student Result (Return)
-//----------------------------------------------
+
 function calculateTotal() {
 
     return 485;
@@ -135,7 +129,6 @@ console.log("Total Marks :", totalMarks);
 
 
 // Task 10-Shopping Cart (Return)
-//----------------------------------------------
 
 function cartTotal(price1, price2, price3) {
 
@@ -149,7 +142,6 @@ console.log("Total Amount :", totalAmount);
 
 
 // Task 11-salary Calculator(Normal Function)
-//----------------------------------------------
 
 function salary(basic, hra, bonus) {
 
@@ -160,7 +152,7 @@ salary(40000, 10000, 8000);
 
 
 // Task 12 - Food Bill (Currying)
-//----------------------------------------------
+
 
 function foodBill(food) {
 
@@ -177,7 +169,7 @@ foodBill(200)(100)(80);
 
 
 // Task 13-E-commerce Coupon Generator
-//----------------------------------------------
+
 
 function* coupons() {
 
@@ -199,7 +191,7 @@ console.log(coupon.next().value);
 
 
 // Task 14-Bank Transaction (Higher Order+Callback)
-//----------------------------------------------
+
 function transactionSuccessful() {
 
     console.log("Transaction Successful");
@@ -214,7 +206,6 @@ withdraw(transactionSuccessful);
 
 
 // Task 15-Employee Profile(Scope)
-//----------------------------------------------
 
 function employeeProfile() {
     if (true) {

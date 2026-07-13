@@ -1,6 +1,6 @@
 
 // Employee Management Tasks
-//----------------------------------------------
+
 // Employee Array
 let employees = [
     {
@@ -22,7 +22,7 @@ let employees = [
 
 
 // Task 1 - Find the Highest Salary
-//----------------------------------------------
+
 
 let highest = employees[0];
 
@@ -38,7 +38,7 @@ console.log("Employee Name :", highest.name);
 
 
 // Task 2 - Find Employee by ID
-//----------------------------------------------
+
 
 let searchId = 103;
 let found = false;
@@ -58,7 +58,6 @@ if (!found) {
 
 
 // Task 3 - Calculate Salary with Bonus
-//----------------------------------------------
 
 let bonus = 5000;
 
@@ -70,7 +69,7 @@ for (let emp of employees) {
 
 
 // Task 4 - Experience Check
-//----------------------------------------------
+
 
 let employeeExperience = [
     {
@@ -99,7 +98,7 @@ for (let emp of employeeExperience) {
 
 
 // Task 5 - Display Only Employee Names
-//----------------------------------------------
+
 
 console.log("\nEmployee Names");
 
@@ -109,7 +108,7 @@ for (let emp of employees) {
 
 
 // Task 6 - Display Employee IDs
-//----------------------------------------------
+
 
 console.log("\nEmployee IDs");
 
@@ -118,7 +117,6 @@ for (let emp of employees) {
 }
 
 // Task 7 - Find Total Salary
-//----------------------------------------------
 
 let totalSalary = 0;
 
@@ -130,7 +128,7 @@ console.log("\nTotal Salary :", totalSalary);
 
 
 // Task 8 - Employees Earning More Than ₹40,000
-//----------------------------------------------
+
 
 console.log("\nEmployees Earning More Than ₹40,000");
 
@@ -142,7 +140,7 @@ for (let emp of employees) {
 
 
 // Task 9 - Increase Salary by ₹5000
-//----------------------------------------------
+
 
 console.log("\nSalary After Increment");
 
@@ -151,7 +149,6 @@ for (let emp of employees) {
 }
 
 // Task 10 - Employee Report
-//----------------------------------------------
 
 console.log("\nEmployee Report");
 
@@ -164,7 +161,6 @@ Salary        : ${emp.salary}
 }
 
 // Challenge Task
-//----------------------------------------------
 
 console.log("========== Challenge Task ==========");
 
@@ -255,10 +251,9 @@ Salary        : ${emp.salary}
 `);
 }
 // Functions Tasks
-//----------------------------------------------
 
 // Task 1 - Company Welcome Function
-//----------------------------------------------
+
 
 function welcomeCompany() {
     console.log("Welcome to Stackly IT");
@@ -268,7 +263,7 @@ welcomeCompany();
 
 
 // Task 2 - Employee Details
-//----------------------------------------------
+
 
 function employeeDetails(name, department, salary) {
     console.log("Employee Name :", name);
@@ -280,7 +275,7 @@ employeeDetails("Naveen", "Developer", 30000);
 
 
 // Task 3 - Calculate Bonus
-//----------------------------------------------
+
 
 function calculateBonus(salary, bonus) {
     console.log("Total Salary :", salary + bonus);
@@ -290,7 +285,6 @@ calculateBonus(40000, 5000);
 
 
 // Task 4 - Student Result
-//----------------------------------------------
 
 function studentResult(marks) {
 
@@ -306,7 +300,6 @@ studentResult(45);
 
 
 // Task 5 - Return Employee Name
-//----------------------------------------------
 
 function employeeName() {
     return "Naveen";
@@ -318,7 +311,6 @@ console.log(employee);
 
 
 // Task 6 - Product Price
-//----------------------------------------------
 
 function productPrice() {
     return 25000;
@@ -331,7 +323,7 @@ console.log("Price + GST :", price + gst);
 
 
 // Task 7 - Scope
-//----------------------------------------------
+
 
 function demo() {
 
@@ -352,7 +344,6 @@ demo();
 
 
 // Task 8 - Hoisting
-//----------------------------------------------
 
 console.log(a);
 
@@ -360,7 +351,6 @@ var a = 100;
 
 
 // Task 9 - Named Function
-//----------------------------------------------
 
 function greeting() {
     console.log("Good Morning");
@@ -370,7 +360,7 @@ greeting();
 
 
 // Task 10 - Anonymous Function
-//----------------------------------------------
+
 
 let welcomeEmployee = function () {
     console.log("Welcome Employee");
@@ -380,7 +370,6 @@ welcomeEmployee();
 
 
 // Task 11 - Arrow Function
-//----------------------------------------------
 
 let training = () => {
     console.log("JavaScript Training");
@@ -390,7 +379,6 @@ training();
 
 
 // Task 12 - Return Function
-//----------------------------------------------
 
 function company() {
     return "Stackly";
@@ -402,7 +390,6 @@ console.log("Welcome", companyName);
 
 
 // Task 13 - Higher Order Function
-//----------------------------------------------
 
 function dashboard() {
     console.log("Dashboard Loaded");
@@ -417,7 +404,6 @@ login(dashboard);
 
 
 // Task 14 - Callback Function
-//----------------------------------------------
 
 function delivered() {
     console.log("Delivered");
@@ -437,7 +423,7 @@ orderReceived(preparingFood);
 
 
 // Task 15 - Generator Function
-//----------------------------------------------
+
 
 function* couponGenerator() {
 
@@ -457,7 +443,7 @@ console.log(coupon.next().value);
 
 
 // Task 16 - Return + Generator
-//----------------------------------------------
+
 
 function* fruits() {
 
@@ -475,7 +461,7 @@ console.log(fruit.next().value);
 
 
 // Task 17 - Currying
-//----------------------------------------------
+
 
 function discount(price) {
 
@@ -493,7 +479,7 @@ discount(1000)(10);
 
 
 // Task 18 - Company Salary
-//----------------------------------------------
+
 
 function salary(salaryAmount) {
 
@@ -513,7 +499,7 @@ salary(30000)(5000)(2000);
 
 
 // Task 19 - Real-Time Login System
-//----------------------------------------------
+
 
 function loadDashboard() {
     console.log("Load Dashboard");
@@ -538,7 +524,7 @@ enterUsername();
 
 
 // Mini Project - Employee Salary Management System
-//----------------------------------------------
+
 
 let emp = {
     name: "Naveen",

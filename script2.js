@@ -1,5 +1,5 @@
 // Task 1 - User Introduction
-//-------------------------------
+
 
 let name = prompt("Enter your Name:");
 let age = prompt("Enter your Age:");
@@ -9,7 +9,7 @@ console.log("I am" + age + " years old");
 
 
 // Task 2 - Degree Confirmation
-//-------------------------------
+
 
 let degree = confirm("Did you complete degree?");
 
@@ -21,7 +21,7 @@ if (degree) {
 
 
 // Task 3 - Mobile Price
-//-------------------------------
+
 
 let mobilePrice = 15000;
 let discount = 2000;
@@ -32,7 +32,7 @@ console.log("Final Price : " + finalPrice);
 
 
 // Task 4 - Age Eligibility
-//-------------------------------
+
 
 let voterAge = prompt("Enter your Age:");
 
@@ -44,7 +44,7 @@ if (voterAge >= 18) {
 
 
 // Task 5 - Shopping Cart
-//-------------------------------
+
 
 let cart = ["Rice","Milk","Sugar","Tea Powder"];
 
@@ -54,7 +54,7 @@ console.log("Total Products : " + cart.length);
 
 
 // Task 6 - Student Details
-//-------------------------------
+
 
 let student = {name: "Naveen",age: 18,course: "MERN"};
 console.log("Student Name : " + student.name);
@@ -62,7 +62,7 @@ console.log("Student Course : " + student.course);
 
 
 // Task 7 - Employee Salary Calculator
-//--------------------------------------
+
 
 let salary = 25000;
 let bonus = 5000;
@@ -71,7 +71,7 @@ console.log("Total Salary : " + totalSalary);
 
 
 // Task 8 - Website Login Check
-//---------------------------------
+
 
 let username = "admin";
 let password = "1234";
@@ -85,7 +85,7 @@ if (enteredUsername === username && enteredPassword === password) {
 
 
 // Task 9 - Food Delivery App
-//-------------------------------
+
 
 let foodPrice = 350;
 let deliveryCharge = 50;
@@ -99,7 +99,7 @@ console.log("Grand Total : " + grandTotal);
 
 
 // Task 10 - E-Commerce Product Details
-//---------------------------------------
+
 
 let product = {name: "Laptop",price: 50000,brand: "ASUS",stock: true};
 
@@ -110,7 +110,7 @@ console.log("Stock Available : " + product.stock);
 
 
 // Task 11 - Attendance System
-//-------------------------------
+
 
 let present = confirm("Are you Present?");
 
@@ -122,7 +122,7 @@ if (present) {
 
 
 // Task 12 - Banking Application
-//---------------------------------
+
 
 let balance = Number(prompt("Enter Current Balance:"));
 let withdrawAmount = Number(prompt("Enter Withdraw Amount:"));
@@ -136,7 +136,7 @@ if (withdrawAmount <= balance) {
 
 
 // Challenge Task - Mini Employee Management System
-//---------------------------------------------------
+
 
 let employee = {
     name: prompt("Enter Employee Name:"),
