@@ -11,14 +11,60 @@
     <!-- <script src="script5.js" defer></script>  -->
     <!-- <script src="script6.js" defer></script> -->
     <!-- <script src="script7.js" defer></script> -->
-     <script src="script8.js" defer></script> 
-<style>
-    h1{
-        color: bisque;
-    }
-</style>
+    <!-- <script src="script8.js" defer></script>  -->
+   <link rel="stylesheet" href="style.css">
 </head>
-<body bgcolor="Black">
-    <h1>Java Script</h1>
+<body>
+
+<div class="container">
+
+    <h1>Find Your Needs </h1>
+    <!------------------------- Task 1 ------------------------->
+
+    <div class="searchbox">
+        <input type="text"id="search" placeholder="Search Product">
+        <button id="Button">Search </button>
+    </div>
+    <!--------------------------------Task 5 ------------------------------->
+    <div id="cartItems">
+    <div class="cart-title">
+        <div class="cart-left">
+            <span class="cart-icon">🛒</span>
+            <h3>Shopping Cart</h3>
+        </div>
+        <div id="cartCount">0</div>
+    </div>
+</div>
+    <!--------------Task 2 ------------------------->
+
+    <div class="categories">
+        <button class="category-btn" data-category="all">All</button>
+        <button class="category-btn" data-category="men's clothing"> Men's Clothing</button>
+        <button class="category-btn" data-category="women's clothing">Women's Clothing</button>
+        <button class="category-btn" data-category="jewelery">Jewelery</button>
+        <button class="category-btn" data-category="electronics">Electronics</button>
+    </div>
+    <!--------------- Task 3 --------------->
+
+    <div class="sort-buttons">
+        <button id="lowToHigh">Low → High</button>
+        <button id="highToLow">High → Low</button>
+    </div>
+
+    <div id="productList" class="products"></div>
+</div>
+<!------------------------------Task 4 Modal -------------------------------->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span id="close">&times;</span>
+        <img id="modalImage" alt="Product Image">
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+        <h3 id="modalPrice"></h3>
+        <p id="modalCategory"></p>
+        <p id="modalRating"></p>
+    </div>
+</div>
+<script src="final.js"></script>
 </body>
 </html>
