@@ -1,4 +1,5 @@
 //Task 1: Product Search (Easy)
+
 let searchInput = document.getElementById("search")
 let productList = document.getElementById("productList")
 let products = []
@@ -38,7 +39,9 @@ searchInput.addEventListener("input", function () {
         product.title.toLowerCase().includes(searchValue))
     displayProducts(filteredProducts)
 })
+
 //Task 2: Category Filter (Medium)
+
 let categoryButtons = document.querySelectorAll(".category-btn")
 categoryButtons.forEach(button => {
     button.addEventListener("click", function () {
@@ -55,7 +58,9 @@ categoryButtons.forEach(button => {
         }
     })
 })
+
 //Task 3: Price Sorting (Medium)
+
 let lowToHigh = document.getElementById("lowToHigh")
 let highToLow = document.getElementById("highToLow")
 
@@ -71,6 +76,7 @@ highToLow.addEventListener("click", () => {
 fetchProducts()
 
 //Task 4: Product Details Popup (Medium-Hard)
+
 let modal = document.getElementById("modal")
 let modalImage = document.getElementById("modalImage")
 let modalTitle = document.getElementById("modalTitle")
@@ -103,6 +109,7 @@ window.addEventListener("click", function (event) {
 })
 
 //Task 5: Shopping Cart (Company-Level)
+
 let cartItems = document.getElementById("cartItems")
 cartItems.addEventListener("click", function(event){
     if(event.target.classList.contains("delete-btn")){
